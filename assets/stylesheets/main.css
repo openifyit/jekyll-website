@@ -27,9 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .home h1 {
     text-align: center;
-    border-bottom: 1px solid #24274c;
-    font-weight: bold;
-    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(36, 39, 76, 0.3);
+    padding-bottom: 20px;
 }
 
 p {

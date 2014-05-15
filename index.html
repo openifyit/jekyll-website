@@ -3,65 +3,44 @@ layout: default
 ---
 
 <div class="home container">
-    <h2>Our services</h2>
+    <h2>{{site.data.home.services.title}}</h2>
     <section class="row">
         <div class="col-sm-4 col-sm-offset-1">
-            <img class="img-responsive" src="/assets/images/api_factory.png">
+            <img class="img-responsive" src="{{site.data.home.services.api.image}}">
         </div>
         <div class="col-sm-5 col-sm-offset-1 section-text">
-            <h3>Customized API</h3>
+            <h3>{{site.data.home.services.api.title}}</h3>
 
-            <p>
-                Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco
-                velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur
-                narwhal Banksy.
-            </p>
-
-            <p>
-                Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur
-                narwhal Banksy.
-            </p>
+            {% for paragraph in site.data.home.services.api.details %}
+            <p>{{paragraph}}</p>
+            {% endfor %}
         </div>
     </section>
     <section class="row">
         <div class="col-sm-4 col-sm-offset-1" style="display:none;">
-            <img class="img-responsive" src="/assets/images/visualize.png">
+            <img class="img-responsive" src="{{site.data.home.services.dashboard.image}}">
         </div>
         <div class="col-sm-5 col-sm-offset-1 section-text">
-            <h3>Dashboard</h3>
+            <h3>{{site.data.home.services.dashboard.title}}</h3>
 
-            <p>
-                Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco
-                velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur
-                narwhal Banksy.
-            </p>
-
-            <p>
-                Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur
-                narwhal Banksy.
-            </p>
+            {% for paragraph in site.data.home.services.dashboard.details %}
+            <p>{{paragraph}}</p>
+            {% endfor %}
         </div>
         <div class="col-sm-4 col-sm-offset-1">
-            <img class="img-responsive" src="/assets/images/visualize.png">
+            <img class="img-responsive" src="{{site.data.home.services.dashboard.image}}">
         </div>
     </section>
     <section class="row">
         <div class="col-sm-4 col-sm-offset-1">
-            <img class="img-responsive" src="/assets/images/realtime.png">
+            <img class="img-responsive" src="{{site.data.home.services.realtime.image}}">
         </div>
         <div class="col-sm-5 col-sm-offset-1 section-text">
-            <h3>Real time</h3>
+            <h3>{{site.data.home.services.realtime.title}}</h3>
 
-            <p>
-                Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco
-                velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur
-                narwhal Banksy.
-            </p>
-
-            <p>
-                Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur
-                narwhal Banksy.
-            </p>
+            {% for paragraph in site.data.home.services.realtime.details %}
+            <p>{{paragraph}}</p>
+            {% endfor %}
         </div>
     </section>
 </div>

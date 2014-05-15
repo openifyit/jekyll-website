@@ -1,5 +1,6 @@
 /* Base */
 /* ----------------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 * {
   margin: 0;
@@ -9,7 +10,7 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -18,7 +19,14 @@ body {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    color: #24274c;
+}
+
+p {
+    color: #636363;
+}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -135,6 +143,26 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.home section img {
+    height: 300px;
+    margin: auto;
+}
+
+.home section {
+    margin: 100px 0px;
+}
+
+.home section p {
+    text-align: justify;
+}
+
+.section-text {
+    margin-top: 20px;
+}
+
+.home h2 {
+    text-align: center;
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/

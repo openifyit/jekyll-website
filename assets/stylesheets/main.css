@@ -154,7 +154,6 @@ a:visited { color: #205caa; }
 .home section img {
     width: 300px;
     margin: auto;
-    vertical-align: middle;
 }
 
 .home section p {

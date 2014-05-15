@@ -2,10 +2,10 @@ services:
   title: "Nos services"
   api:
     image: "/assets/images/api_factory.png"
-    title: "API personalisée"
+    title: "API sur mesure"
     details:
-      - "Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
-      - "Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
+      - "Nous développons des APIs REST sur mesure pour répondre à vos besoins selon votre contexte d'affaire. Nos APIs sont indépendants de votre architecture et n'impacterons pas vos systèmes actuels."
+      - "Votre API personnalisée vous permettra de tirer 100% profit de vos données à l'interne et même des données externes."
   realtime:
     image: "/assets/images/realtime.png"
     title: Données en temps réel

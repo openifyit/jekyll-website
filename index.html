@@ -5,7 +5,7 @@ layout: default
 <div class="home container">
     <section class="services col-sm-10 col-sm-offset-1">
         <h1>{{site.data.home.services.title}}</h1>
-        <div class="row">
+        <div class="row" id="{{site.data.home.services.api.anchor}}">
             <div class="col-sm-5">
                 <img class="img-responsive" src="{{site.data.home.services.api.image}}">
             </div>
@@ -17,7 +17,7 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="{{site.data.home.services.dashboard.anchor}}">
             <div class="col-sm-5 visible-xs">
                 <img class="img-responsive" src="{{site.data.home.services.dashboard.image}}">
             </div>
@@ -32,7 +32,7 @@ layout: default
                 <img class="img-responsive" src="/assets/images/visualize.png">
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="{{site.data.home.services.realtime.anchor}}">
             <div class="col-sm-5">
                 <img class="img-responsive" src="/assets/images/realtime.png">
             </div>

@@ -132,7 +132,10 @@ a:visited { color: #205caa; }
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 { margin-bottom: 25px; }
+.home h1 {
+    margin-bottom: 25px;
+    font-size: 4em;
+}
 
 .posts { list-style-type: none; }
 
@@ -174,6 +177,9 @@ a:visited { color: #205caa; }
 @media screen and (max-width: 767px) {
     .responsive-img-disabled {
         display:none;
+    }
+    .home .services h2 {
+        text-align: center;
     }
 }
 

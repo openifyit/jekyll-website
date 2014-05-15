@@ -1,0 +1,19 @@
+services:
+  api:
+    image: "/assets/images/api_factory.png"
+    title: "Customized API"
+    details:
+      - "Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
+      - "Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
+  realtime:
+    image: "/assets/images/realtime.png"
+    title: Realtime data
+    details:
+      - "Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
+      - "Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
+  dashboard:
+    image: "/assets/images/visualize.png"
+    title: Data visulization
+    details:
+      - "Ad commodo authentic pickled, squid selvage umami +1 hoodie sartorial Odd Future dreamcatcher ullamco velit. Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."
+      - "Plaid before they sold out Bushwick 3 wolf moon brunch. Wayfarers freegan anim bespoke, consectetur narwhal Banksy."

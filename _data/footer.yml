@@ -3,3 +3,9 @@ github: openifyit
 twitter: openify
 email: info@openify.it
 linkedin: openify
+github_icon: /assets/images/github.png
+twitter_icon: /assets/images/twitter.png
+linkedin_icon: /assets/images/linkedin.png
+mail_icon: /assets/images/mail.png
+contact: restons en contact
+

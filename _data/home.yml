@@ -8,7 +8,7 @@ services:
       - "Votre API personnalisée vous permettra de tirer 100% profit de vos données à l'interne et même des données externes."
   realtime:
     image: "/assets/images/realtime.png"
-    title: en temps réel
+    title: temps réel
     details:
       - "L'anayse en temps réel ouvre une porte sur un tout autre monde d'analyse de données."
       - "Elle vient compléter l'analyse après coup en permettant de répondre à des événements spontanés. Que ce soit pour la détection d'anomalies ou de saisie d'opportunités, elle vous permettra de réagir en un temps minimal et donc d'avoir une longueur d'avance sur vos compétiteurs"

@@ -4,10 +4,10 @@
     <title>{{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
+    <link rel="shortcut icon" type="image/png" href="{{site.favicon}}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/bootstrap.min.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="/assets/stylesheets/bootstrap.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}">
-
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
 </head>

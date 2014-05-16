@@ -11,6 +11,7 @@ html, body { height: 100%; }
 
 body {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
@@ -22,6 +23,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     color: #24274c;
+}
+
+.home h1 {
+    text-align: center;
+    border-bottom: 2px solid rgba(36, 39, 76, 0.3);
+    padding-bottom: 20px;
 }
 
 p {
@@ -131,12 +138,8 @@ a:visited { color: #205caa; }
 }
 
 .home section img {
-    height: 300px;
+    width: 300px;
     margin: auto;
-}
-
-.home section {
-    margin: 100px 0px;
 }
 
 .home section p {
@@ -147,8 +150,18 @@ a:visited { color: #205caa; }
     margin-top: 20px;
 }
 
-.home h2 {
-    text-align: center;
+.home .services {
+    padding: 30px 0px;
+}
+
+.home .services .row {
+    padding: 50px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .responsive-img-disabled {
+        display:none;
+    }
 }
 
 /* Syntax highlighting styles */

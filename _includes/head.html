@@ -1,10 +1,26 @@
 <head>
+    <title>{{ site.title }}</title>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
-    <link rel="shortcut icon" type="image/png" href="{{site.favicon}}">
+    
+    <!-- facebook meta tags -->
+    <meta property="og:title" content="{{ site.title }}"/>
+    <meta property="og:url" content="{{ site.url}} "/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    <meta property="og:image" content="{{ site.data.social.og_image | prepend: site.url }}"/>
+    <meta property="og:description" content=" {{ site.data.social.og_description }} "/>
+
+    <!-- twitter meta tagas -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.data.social.twitter.username }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.data.social.og_description }}">
+    <meta name="twitter:image" content="{{ site.data.social.og_image | prepend: site.url }}">
+    
+    <link rel="shortcut icon" type="image/png" href="{{ site.favicon }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="/assets/stylesheets/bootstrap.min.css">
 

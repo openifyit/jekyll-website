@@ -163,3 +163,23 @@ footer .links-container > a > img:hover {
         padding: 0 12px;
     }
 }
+
+/* navigation bar / scrollspy styles */
+/* ----------------------------------------------------------*/
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar-brand {
+    padding: 13px;
+}
+
+.container-fluid {
+    /*padding: 0px 160px;*/
+}
+
+.navbar li a {
+    text-transform: uppercase;
+    color: #24274c;
+}

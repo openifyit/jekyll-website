@@ -3,18 +3,21 @@ services:
   api:
     image: "/assets/images/api_factory.png"
     title: "API sur mesure"
+    anchor: "api"
     details:
       - "Nous développons des APIs REST sur mesure pour répondre à vos besoins selon votre contexte d'affaire. Nos APIs sont indépendants de votre architecture et n'impacterons pas vos systèmes actuels."
       - "Votre API personnalisée vous permettra de tirer 100% profit de vos données à l'interne et même des données externes."
   realtime:
     image: "/assets/images/realtime.png"
     title: temps réel
+    anchor: "temps-reel"
     details:
       - "L'anayse en temps réel ouvre une porte sur un tout autre monde d'analyse de données."
       - "Elle vient compléter l'analyse après coup en permettant de répondre à des événements spontanés. Que ce soit pour la détection d'anomalies ou de saisie d'opportunités, elle vous permettra de réagir en un temps minimal et donc d'avoir une longueur d'avance sur vos compétiteurs"
   dashboard:
     image: "/assets/images/visualize.png"
     title: Visualisation
+    anchor: "visualisation"
     details:
       - "La visualisation des données complète la boucle."
       - "Elle vous permettra d’approfondir votre compréhension des données que vous collectez et d’en faire une meilleure analyse. Vous serez donc en mesure de prendre des décisions plus éclairées"

@@ -188,7 +188,7 @@ footer .links-container > a > img:hover {
 }
 
 .home .services .row {
-    padding: 50px 0px;
+    margin: 150px 0px;
 }
 
 @media screen and (max-width: 600px) {

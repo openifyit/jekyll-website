@@ -17,7 +17,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
-    background-color: #fdfdfd;
     margin: 0;
     padding: 0;
 }
@@ -95,13 +94,35 @@ header .openify-scroll-to:hover {
 
 footer {
     background-color: #24274c;
-    min-height: 600px;
+    min-height: 700px;
     padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+footer h3 {
+    margin-top: 100px;
+    color: white;
 }
 
 footer .email-subscription {
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin: 30px auto;
+}
+
+.openify-input:focus{
+    border-color: #ffffff;
+    box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.openify-input, .openify-form-button  {
+    border-radius: 0 !important;
+    background-color: #24274c;
+    border: solid 2px #f5f5f5;
+    color: #cccccc;
+}
+
+.openify-form-button:hover{
+    color: #ffffff;
 }
 
 footer .logo-container {
@@ -139,14 +160,6 @@ footer .links-container > a > img {
 footer .links-container > a > img:hover {
     max-height: 55%;
     margin-top: 16px;
-}
-
-/* Page Content styles */
-/* ----------------------------------------------------------*/
-
-.page-content {
-    padding: 30px 0;
-    background-color: #fff;
 }
 
 /* Home styles */

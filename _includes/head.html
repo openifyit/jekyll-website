@@ -4,10 +4,20 @@
     <title>{{ site.title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
+    
+    <!-- facebook meta tags -->
+    <meta property="og:title" content="{{site.title}}"/>
+    <meta property="og:url" content="http://openify.it"/>
+    <meta property="og:site_name" content="{{site.name}}"/>
+    <meta property="og:image" content="{{site.facebook_og_image}}"/>
+    <meta property="og:description" content="{{site.description}}"/>
+
+    <!-- twitter meta tags -->
+    
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="{{ "/assets/stylesheets/bootstrap.min.css" | prepend: site.baseurl }}">
 
-    <!-- Custom CSS -->
+    <!-- custom css -->
     <link rel="stylesheet" href="{{ "/assets/stylesheets/main.css" | prepend: site.baseurl }}">
 
 </head>

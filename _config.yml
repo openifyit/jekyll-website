@@ -1,13 +1,11 @@
 # Site settings
 title: openify.it
+name: openify
 email: info@openify.it
 description: "openify.it brings small and medium businesses into the data era by giving them access to a powerful search-engine and data analysis tools. Proposing simple solutions to solve customers problems and choosing technologies to implement the solutions."
 baseurl: ""
 url: "http://openify.it"
-twitter:
-  username: "openify"
-github:
-  username: "OpenifyIt"
+facebook_og_image: /assets/images/facebook_og_image.jpg
 
 # Build settings
 markdown: kramdown

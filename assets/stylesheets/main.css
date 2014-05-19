@@ -157,26 +157,6 @@ footer .links-container > a > img:hover {
     font-size: 4em;
 }
 
-.posts {
-    list-style-type: none;
-}
-
-.posts li {
-    margin-bottom: 30px;
-}
-
-.posts .post-link {
-    font-size: 24px;
-    letter-spacing: -1px;
-    line-height: 1;
-}
-
-.posts .post-date {
-    display: block;
-    font-size: 15px;
-    color: #818181;
-}
-
 .home section img {
     width: 300px;
     margin: auto;

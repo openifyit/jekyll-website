@@ -132,10 +132,6 @@ footer .links-container > a > img:hover {
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home h1 {
-    margin-bottom: 25px;
-}
-
 .home section img {
     width: 300px;
     margin: auto;
@@ -154,7 +150,7 @@ footer .links-container > a > img:hover {
 }
 
 .home .services .row {
-    padding: 50px 0px;
+    padding: 80px 60px 0px 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -171,11 +167,11 @@ footer .links-container > a > img:hover {
 }
 
 .navbar-brand {
-    padding: 13px;
+    padding: 14px;
 }
 
 .container-fluid {
-    /*padding: 0px 160px;*/
+    padding: 0px 60px;
 }
 
 .navbar li a {
@@ -189,7 +185,6 @@ footer .links-container > a > img:hover {
 }
 
 .navbar-fixed-top .navbar-collapse {
-    padding-left: 15px;
     padding-right: 15px;
 }
 
@@ -200,10 +195,11 @@ footer .links-container > a > img:hover {
     border-left: none;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-    color: #555;
-    background-color: transparent;
-    border-bottom: 5px solid #ec5b3f;
+@media (min-width: 768px) {
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        border-bottom: 5px solid #ec5b3f;
+        background-color: transparent;
+    }
 }

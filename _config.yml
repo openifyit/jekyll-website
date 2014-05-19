@@ -5,7 +5,13 @@ description: "openify.it brings small and medium businesses into the data era by
 baseurl: ""
 favicon: "/assets/images/favicon.png"
 url: "http://openify.it"
+keen:
+  id: 5377e43300111c1eb7000025
+  write: edb7d53dbedb961e2a3e25d356f1d11f68a2fc4941ec95bacf9feee6c6b68f632d196d068c8c6bc5b8117e1af873dfbf68182729dcfad54b1d2d57ce7c81c709c04628327430d8d74f228c294af2a99f3f10dd0b2ab53ead7a7576b526bab0f4230ed9d40e2e3f3a16dc9c58489b8fbb
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-sitemap

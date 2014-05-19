@@ -1,2 +1,6 @@
 icon: /assets/images/openify_icon_white_small.png
 contact: restons en contact
+subscription:
+  placeholder: Entrez votre adresse courriel
+  submit: Soumettre
+  greeting: "Merci de l'intérêt! Nous vous contacterons sous peu."

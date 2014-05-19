@@ -1,0 +1,17 @@
+og_image: /assets/images/og_image.jpg
+og_description: openify.it brings small and medium businesses into the data era by giving them access to a powerful search-engine and data analysis tools. Proposing simple solutions to solve customers problems and choosing technologies to implement the solutions.
+email:
+    address: info@openify.it
+    icon: /assets/images/mail.png
+twitter:
+    base_url: https://twitter.com/
+    username: openify
+    icon: /assets/images/twitter.png
+github:
+    base_url: https://github.com/
+    username: openifyit
+    icon: /assets/images/github.png
+linkedin:
+    base_url: https://linkedin.com/company/
+    username: openify-it
+    icon: /assets/images/linkedin.png

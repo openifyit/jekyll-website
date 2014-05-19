@@ -4,7 +4,7 @@
   </button>
 </div>
 
-<div class="modal fade" id="learn-more-modal-{{include.param}}" tabindex="-1" role="dialog" aria-labelledby="learn-more-modal-{{include.param}}-label" aria-hidden="true">
+<div class="modal fade openify-modal" id="learn-more-modal-{{include.param}}" tabindex="-1" role="dialog" aria-labelledby="learn-more-modal-{{include.param}}-label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -16,9 +16,9 @@
         <form>
             <div class="input-group input-group-lg">
                 <input type="email" name="email" placeholder="{{site.data.footer.subscription.placeholder}}"
-                       class="form-control">
+                       class="form-control openify-input">
             <span class="input-group-btn">
-                <button class="btn btn-default" type="submit">{{site.data.footer.subscription.submit}}</button>
+                <button class="btn openify-form-button" type="submit">{{site.data.footer.subscription.submit}}</button>
             </span>
             </div>
         </form>

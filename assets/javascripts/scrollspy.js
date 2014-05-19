@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).bind('scroll', function() {
-        var navHeight = $( window ).height();
-        if ($(window).scrollTop() > navHeight) {
+        var navbarHeight = $( window ).height();
+        if ($(window).scrollTop() > navbarHeight) {
             $('nav').addClass('navbar-fixed-top');
             $('.page-content').addClass('navbar-padding');
         }

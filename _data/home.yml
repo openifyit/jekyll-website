@@ -1,3 +1,6 @@
+learn-more-button: Pour en savoir plus
+learn-more-modal:
+  text: Il nous fera plaisir de vous contacter et discuter avec vous. Simplement nous lassier votre adresse courriel.
 services:
   title: "Nos services"
   api:

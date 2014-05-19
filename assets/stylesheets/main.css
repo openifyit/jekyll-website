@@ -126,7 +126,6 @@ footer .links-container > a > img:hover {
 /* ----------------------------------------------------------*/
 
 .page-content {
-    padding: 30px 0;
     background-color: #fff;
 }
 
@@ -182,4 +181,9 @@ footer .links-container > a > img:hover {
 .navbar li a {
     text-transform: uppercase;
     color: #24274c;
+    font-size: 0.7em;
+}
+
+.navbar-padding {
+    padding-top: 70px;
 }

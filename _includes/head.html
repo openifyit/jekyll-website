@@ -7,13 +7,20 @@
     <meta name="description" content="{{ site.description }}">
     
     <!-- facebook meta tags -->
-    <meta property="og:title" content="{{site.title}}"/>
-    <meta property="og:url" content="http://openify.it"/>
-    <meta property="og:site_name" content="{{site.name}}"/>
-    <meta property="og:image" content="{{site.facebook_og_image}}"/>
-    <meta property="og:description" content="{{site.description}}"/>
+    <meta property="og:title" content="{{ site.title }}"/>
+    <meta property="og:url" content="{{ site.url}} "/>
+    <meta property="og:site_name" content="{{ site.name }}"/>
+    <meta property="og:image" content="{{ site.data.social.og_image | prepend: site.url }}"/>
+    <meta property="og:description" content=" {{ site.data.social.og_description }} "/>
+
+    <!-- twitter meta tagas -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.data.social.twitter.username }}">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="{{ site.data.social.og_description }}">
+    <meta name="twitter:image" content="{{ site.data.social.og_image | prepend: site.url }}">
     
-    <link rel="shortcut icon" type="image/png" href="{{site.favicon}}">
+    <link rel="shortcut icon" type="image/png" href="{{ site.favicon }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="/assets/stylesheets/bootstrap.min.css">
 

@@ -64,12 +64,31 @@ header {
 
 header .logo-container {
     padding-top: 20%;
-    width: 65%;
+    width: 50%;
     margin: auto;
 }
 
 header .logo-container > img {
     width: 100%;
+}
+
+header .openify-scroll-to-container {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+}
+
+header .openify-scroll-to {
+    width: 50px;
+    height: 50px;
+    background-image: url("/assets/images/scroll.png");
+    background-position: 0 0;
+    cursor: pointer;
+    margin: auto;
+}
+
+header .openify-scroll-to:hover {
+    background-position: 0 50px;
 }
 
 /* Site footer */
@@ -138,22 +157,6 @@ footer .links-container > a > img:hover {
     font-size: 4em;
 }
 
-.posts { list-style-type: none; }
-
-.posts li { margin-bottom: 30px; }
-
-.posts .post-link {
-  font-size: 24px;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-
-.posts .post-date {
-  display: block;
-  font-size: 15px;
-  color: #818181;
-}
-
 .home section img {
     width: 300px;
     margin: auto;
@@ -179,6 +182,7 @@ footer .links-container > a > img:hover {
     .wrap {
         padding: 0 12px;
     }
+
     .home .services h2 {
         text-align: center;
     }

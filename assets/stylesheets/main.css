@@ -175,7 +175,7 @@ footer .links-container > a > img:hover {
     margin: auto;
 }
 
-.home section p {
+.home p {
     text-align: justify;
 }
 
@@ -183,12 +183,20 @@ footer .links-container > a > img:hover {
     margin-top: 20px;
 }
 
-.home .services {
+.home section {
     padding: 30px 0px;
 }
 
 .home .services .row {
-    margin: 150px 0px;
+    margin: 150px 0px 0px 0px;
+}
+
+.home .vision .row {
+    margin: 40px 0px;
+}
+
+.home .vision h2 {
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {

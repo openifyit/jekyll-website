@@ -21,3 +21,15 @@ services:
     details:
       - "La visualisation des données complète la boucle."
       - "Elle vous permettra d’approfondir votre compréhension des données que vous collectez et d’en faire une meilleure analyse. Vous serez donc en mesure de prendre des décisions plus éclairées"
+vision:
+  title: "Notre vision"
+  anchor: "vision"
+  problem:
+    title: "Votre problème de données"
+    image: "/assets/images/steps.png"
+  solution:
+    title: "Notre solution"
+    image: "/assets/images/find_use.png"
+  details:
+    - "Bacon ipsum dolor sit amet turkey short loin chuck leberkas prosciutto kielbasa biltong beef ribs shoulder doner. Capicola cow chicken rump, meatloaf shankle pastrami salami short ribs kevin shoulder. Ribeye shankle leberkas hamburger. Tri-tip corned beef prosciutto shank sirloin frankfurter fatback turducken swine porchetta short loin jowl ribeye."
+    - "Rump flank strip steak ham shoulder beef ribs t-bone leberkas filet mignon bacon. Hamburger turducken chuck bresaola, tail jowl bacon corned beef tongue andouille. Beef ribs shoulder corned beef ham hock, tri-tip tail biltong. T-bone rump turducken flank pork loin meatloaf pork chop hamburger corned beef turkey tongue landjaeger ribeye beef ribs tri-tip. Landjaeger filet mignon swine, porchetta tri-tip venison biltong pork loin tenderloin rump pork pig boudin frankfurter flank."

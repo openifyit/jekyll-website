@@ -13,10 +13,13 @@
         $('footer .email-subscription form').submit(function(event){
             event.preventDefault();
             var email = $('footer .email-subscription input').val();
-            Keen.addEvent("contact-email-subscription", {email:email});
+            var data = {
+              email:email,
+              section: 'footer'
+            };
+            Keen.addEvent("contact-email-subscription", data);
             $('footer .email-subscription input').val('');
             alert("{{site.data.footer.subscription.greeting}}");
         });
-
     });
 </script>

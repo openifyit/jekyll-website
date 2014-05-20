@@ -200,3 +200,30 @@ footer .links-container > a > img:hover {
         text-align: center;
     }
 }
+
+
+.openify-modal .modal-content{
+    background-color: #24274c;
+    color: white;
+}
+
+.openify-modal .modal-title, .openify-modal .close{
+    color: white !important;
+}
+
+.openify-modal form {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.openify-light-button {
+    background-color: transparent;
+    border-radius: 0 !important;
+    border: solid 3px #24274c;
+    color: #24274c;
+}
+
+.openify-light-button:hover {
+    border: solid 3px #636363;
+    color: #636363;
+}

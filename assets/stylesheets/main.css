@@ -247,6 +247,8 @@ footer .links-container > a > img:hover {
     text-decoration: none;
     color: #24274c;
     font-size: 0.7em;
+    background-color: transparent !important;
+    padding: 5px 15px;
 }
 
 .openify-navbar-links li>a:hover {
@@ -254,7 +256,7 @@ footer .links-container > a > img:hover {
 }
 
 .openify-navbar-padding {
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .openify-navbar-links .active {

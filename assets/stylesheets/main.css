@@ -212,5 +212,6 @@ footer .links-container > a > img:hover {
 }
 
 .openify-modal form {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }

@@ -185,11 +185,11 @@ footer .links-container > a > img:hover {
 }
 
 .home .services {
-    padding: 30px 0px;
+    padding: 50px 0px;
 }
 
 .home .services .row {
-    margin: 150px 0px;
+    padding-top: 120px;
 }
 
 @media screen and (max-width: 600px) {
@@ -202,6 +202,62 @@ footer .links-container > a > img:hover {
     }
 }
 
+/* navigation bar styles */
+/* ----------------------------------------------------------*/
+
+.openify-navbar {
+    background-color: white;
+    box-shadow: 0 1px 5px 0;
+    height: 80px;
+}
+
+.openify-navbar .container {
+    height: 100%;
+}
+
+.openify-navbar-logo {
+    height: 100%;
+    padding: 20px;
+}
+
+.openify-navbar-header {
+    height: 100%
+}
+
+.openify-navbar-links {
+    height:100%;
+}
+
+.openify-navbar-links ul {
+    height: 100%;
+}
+
+.openify-navbar-links li {
+    height: 100%;
+    float: left;
+    list-style: none;
+    padding: 28px 15px;
+    border-bottom: 5px solid transparent;
+}
+
+.openify-navbar-links li>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #24274c;
+    font-size: 0.7em;
+}
+
+.openify-navbar-links li>a:hover {
+    color: #f15c39;
+}
+
+.openify-navbar-padding {
+    padding-top: 80px;
+}
+
+.openify-navbar-links .active {
+    border-bottom-color: #f15c39;
+}
 
 .openify-modal .modal-content{
     background-color: #24274c;

@@ -1,5 +1,7 @@
 icon: /assets/images/openify_icon_white_small.png
 contact: restons en contact
+anchor: contact
+title: Contact
 subscription:
   placeholder: Votre adresse courriel
   submit: Soumettre

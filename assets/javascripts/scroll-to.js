@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $('#scroll-arrow').click(function () {
-        //        var scrollTopOffset = $( window ).height();
         var scrollTopOffset = $('nav').offset().top;
         if(!scrollTopOffset) {
             scrollTopOffset = $('.services').offset().top;

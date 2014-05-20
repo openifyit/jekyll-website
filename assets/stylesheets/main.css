@@ -59,6 +59,7 @@ header {
     height: 100%;
     background-image: url('../images/header.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 header .logo-container {
@@ -167,7 +168,7 @@ footer .links-container > a > img:hover {
 
 .home h1 {
     margin-bottom: 25px;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .home section img {
@@ -256,4 +257,30 @@ footer .links-container > a > img:hover {
 
 .openify-navbar-links .active {
     border-bottom-color: #f15c39;
+}
+
+.openify-modal .modal-content{
+    background-color: #24274c;
+    color: white;
+}
+
+.openify-modal .modal-title, .openify-modal .close{
+    color: white !important;
+}
+
+.openify-modal form {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.openify-light-button {
+    background-color: transparent;
+    border-radius: 0 !important;
+    border: solid 3px #24274c;
+    color: #24274c;
+}
+
+.openify-light-button:hover {
+    border: solid 3px #636363;
+    color: #636363;
 }

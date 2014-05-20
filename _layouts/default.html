@@ -3,21 +3,20 @@
 
   {% include head.html %}
 
-    <body data-spy="scroll" data-target="#content-scrollspy">
+    <body>
 
     {% include header.html %}
 
-    {% include scrollspy.html %}
+    {% include navbar.html %}
 
-    <div class="page-content">
-      <div class="wrap">
-      {{ content }}
-      </div>
+    <div class="wrap">
+        {{ content }}
     </div>
 
     {% include footer.html %}
     {% include google-analytics.html %}
     {% include keen-io.html %}
+    {% include javascripts.html %}
 
     </body>
 </html>

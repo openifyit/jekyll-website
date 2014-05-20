@@ -215,3 +215,15 @@ footer .links-container > a > img:hover {
     margin-top: 50px;
     margin-bottom: 25px;
 }
+
+.openify-light-button {
+    background-color: transparent;
+    border-radius: 0 !important;
+    border: solid 3px #24274c;
+    color: #24274c;
+}
+
+.openify-light-button:hover {
+    border: solid 3px #636363;
+    color: #636363;
+}

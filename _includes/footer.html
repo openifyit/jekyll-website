@@ -1,4 +1,4 @@
-<footer>
+<footer id="{{site.data.footer.anchor}}">
     <div class="col-sm-6 col-sm-offset-3">
         <div class="row">
             <div class="logo-container">
@@ -21,13 +21,13 @@
             <a href="mailto:{{ site.data.social.email.address }}">
                 <img src="{{ site.data.social.email.icon }}">
             </a>
-            <a href="{{ site.data.social.github.username | prepend: site.data.social.github.base_url }}">
+            <a href="{{ site.data.social.github.username | prepend: site.data.social.github.base_url }}" target="_blank">
                 <img src="{{ site.data.social.github.icon }}">
             </a>
-            <a href="{{ site.data.social.twitter.username | prepend: site.data.social.twitter.base_url }}">
+            <a href="{{ site.data.social.twitter.username | prepend: site.data.social.twitter.base_url }}" target="_blank">
                 <img src="{{ site.data.social.twitter.icon }}">
             </a>
-            <a href="{{ site.data.social.linkedin.username | prepend: site.data.social.linkedin.base_url }}">
+            <a href="{{ site.data.social.linkedin.username | prepend: site.data.social.linkedin.base_url }}" target="_blank">
                 <img src="{{ site.data.social.linkedin.icon }}">
             </a>
         </div>

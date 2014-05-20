@@ -44,7 +44,10 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-        <div class="row" id="{{site.data.home.services.dashboard.anchor}}">
+
+        {% include learn-more-modal.html param="api"%}
+
+        <div class="row" id="{{site.data.home.services.realtime.anchor}}">
             <div class="col-sm-5 visible-xs">
                 <img class="img-responsive" src="{{site.data.home.services.realtime.image}}">
             </div>
@@ -59,7 +62,10 @@ layout: default
                 <img class="img-responsive" src="{{site.data.home.services.realtime.image}}">
             </div>
         </div>
-        <div class="row" id="{{site.data.home.services.realtime.anchor}}">
+
+        {% include learn-more-modal.html param="realtime"%}
+
+        <div class="row" id="{{site.data.home.services.dashboard.anchor}}">
             <div class="col-sm-5">
                 <img class="img-responsive" src="{{site.data.home.services.dashboard.image}}">
             </div>
@@ -71,5 +77,7 @@ layout: default
                 {% endfor %}
             </div>
         </div>
+
+        {% include learn-more-modal.html param="visualization"%}
     </section>
 </div>

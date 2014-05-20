@@ -59,6 +59,7 @@ header {
     height: 100%;
     background-image: url('../images/header.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 header .logo-container {
@@ -167,7 +168,7 @@ footer .links-container > a > img:hover {
 
 .home h1 {
     margin-bottom: 25px;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .home section img {
@@ -184,11 +185,7 @@ footer .links-container > a > img:hover {
 }
 
 .home section {
-    padding: 30px 0px;
-}
-
-.home .services .row {
-    margin: 150px 0px 0px 0px;
+    padding: 50px 0px;
 }
 
 .home .vision .row {
@@ -199,6 +196,10 @@ footer .links-container > a > img:hover {
     text-align: center;
 }
 
+.home .services .row {
+    padding-top: 120px;
+}
+
 @media screen and (max-width: 600px) {
     .wrap {
         padding: 0 12px;
@@ -207,4 +208,91 @@ footer .links-container > a > img:hover {
     .home .services h2 {
         text-align: center;
     }
+}
+
+/* navigation bar styles */
+/* ----------------------------------------------------------*/
+
+.openify-navbar {
+    background-color: rgba(255,255,255,0.95);
+    box-shadow: 0 1px 5px 0;
+    height: 80px;
+    border: none;
+    border-radius: 0;
+}
+
+.openify-navbar .container {
+    height: 100%;
+}
+
+.openify-navbar-logo {
+    height: 100%;
+    padding: 20px;
+}
+
+.openify-navbar-header {
+    height: 100%
+}
+
+.openify-navbar-links {
+    height:100%;
+}
+
+.openify-navbar-links ul {
+    height: 100%;
+}
+
+.openify-navbar-links li {
+    height: 100%;
+    float: left;
+    list-style: none;
+    padding: 28px 15px;
+    border-bottom: 5px solid transparent;
+}
+
+.openify-navbar-links li>a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #24274c;
+    font-size: 0.7em;
+    background-color: transparent !important;
+    padding: 5px 15px;
+}
+
+.openify-navbar-links li>a:hover {
+    color: #f15c39;
+}
+
+.openify-navbar-padding {
+    padding-top: 100px;
+}
+
+.openify-navbar-links .active {
+    border-bottom-color: #f15c39;
+}
+
+.openify-modal .modal-content{
+    background-color: #24274c;
+    color: white;
+}
+
+.openify-modal .modal-title, .openify-modal .close{
+    color: white !important;
+}
+
+.openify-modal form {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.openify-light-button {
+    background-color: transparent;
+    border-radius: 0 !important;
+    border: solid 3px #24274c;
+    color: #24274c;
+}
+
+.openify-light-button:hover {
+    border: solid 3px #636363;
+    color: #636363;
 }

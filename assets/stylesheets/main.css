@@ -59,6 +59,7 @@ header {
     height: 100%;
     background-image: url('../images/header.jpg');
     background-position: center;
+    background-size: cover;
 }
 
 header .logo-container {
@@ -167,7 +168,7 @@ footer .links-container > a > img:hover {
 
 .home h1 {
     margin-bottom: 25px;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 .home section img {

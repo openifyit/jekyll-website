@@ -3,6 +3,33 @@ layout: default
 ---
 
 <div class="home container">
+    <section class="vision col-sm-10 col-sm-offset-1" id="{{site.data.home.vision.anchor}}">
+        <h1>{{site.data.home.vision.title}}</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row">
+                    <h2>{{site.data.home.vision.problem.title}}</h2>
+                </div>
+                <div class="row">
+                    <img class="img-responsive" src="{{site.data.home.vision.problem.image}}">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <h2>{{site.data.home.vision.solution.title}}</h2>
+                </div>
+                <div class="row">
+                    <img class="img-responsive" src="{{site.data.home.vision.solution.image}}">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for paragraph in site.data.home.vision.details %}
+            <p>{{paragraph}}</p>
+            {% endfor %}
+        </div>
+    </section>
+
     <section class="services col-sm-10 col-sm-offset-1">
         <h1>{{site.data.home.services.title}}</h1>
         <div class="row" id="{{site.data.home.services.api.anchor}}">

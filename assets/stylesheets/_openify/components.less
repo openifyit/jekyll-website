@@ -14,17 +14,27 @@
     color: @openify-gray;
     background-color: transparent;
     &-dark {
-        border: solid @openify-border-size @openify-dark-blue !important;
-        color: @openify-dark-blue !important;
+        border: solid @openify-border-size @openify-dark-blue;
+        color: @openify-dark-blue;
         &:hover {
             background-color: white;
         }
     }
     &-light {
-        border: solid @openify-border-size #ffffff !important;
+        border: solid @openify-border-size #ffffff;
         &:hover {
-            color: white !important;
+            color: white;
         }
     }
 
 }
+
+.openify-input{
+    background-color: @openify-dark-blue;
+    border: solid @openify-border-size #ffffff;
+    color: #ffffff;
+    &:focus{
+        box-shadow: none;
+    }
+}
+

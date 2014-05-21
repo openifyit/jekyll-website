@@ -1,10 +1,8 @@
 # website for openify.it
 
 ## Setup
-* ```gem install jekyll```
-* ```gem install rake```
-* ```gem install jekyll-less```
-* (in case) ```gem install therubyracer```
+* Make sure to have Bundler ```gem install bundler```
+* run ```bundle install```
 
 ## Run
 ```jekyll serve```

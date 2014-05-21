@@ -1,44 +1,65 @@
-@import "variables";
-@import "_footer";
-@import "_header";
-/* Base */
-/* ----------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-* {
-    margin: 0;
-    padding: 0;
-}
+@import "_openify/footer";
+@import "_openify/header";
+@import "_openify/variables";
+@import "_openify/base";
+@import "_openify/components";
 
-html, body {
-    height: 100%;
-}
+// Core variables and mixins
+@import "_bootstrap/mixins.less";
 
-body {
-    font-family: Montserrat, Helvetica, Arial, sans-serif;
-    background-color: #f5f5f5;
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-}
+// Reset
+@import "_bootstrap/normalize.less";
+@import "_bootstrap/print.less";
 
-h1, h2, h3, h4, h5, h6 {
-    text-transform: uppercase;
-    color: #24274c;
-}
+// Core CSS
+@import "_bootstrap/scaffolding.less";
+@import "_bootstrap/type.less";
+@import "_bootstrap/code.less";
+@import "_bootstrap/grid.less";
+@import "_bootstrap/tables.less";
+@import "_bootstrap/forms.less";
+@import "_bootstrap/buttons.less";
+
+// Components
+@import "_bootstrap/component-animations.less";
+@import "_bootstrap/glyphicons.less";
+@import "_bootstrap/dropdowns.less";
+@import "_bootstrap/button-groups.less";
+@import "_bootstrap/input-groups.less";
+@import "_bootstrap/navs.less";
+@import "_bootstrap/navbar.less";
+@import "_bootstrap/breadcrumbs.less";
+@import "_bootstrap/pagination.less";
+@import "_bootstrap/pager.less";
+@import "_bootstrap/labels.less";
+@import "_bootstrap/badges.less";
+@import "_bootstrap/jumbotron.less";
+@import "_bootstrap/thumbnails.less";
+@import "_bootstrap/alerts.less";
+@import "_bootstrap/progress-bars.less";
+@import "_bootstrap/media.less";
+@import "_bootstrap/list-group.less";
+@import "_bootstrap/panels.less";
+@import "_bootstrap/wells.less";
+@import "_bootstrap/close.less";
+
+// Components w/ JavaScript
+@import "_bootstrap/modals.less";
+@import "_bootstrap/tooltip.less";
+@import "_bootstrap/popovers.less";
+@import "_bootstrap/carousel.less";
+
+// Utility classes
+@import "_bootstrap/utilities.less";
+@import "_bootstrap/responsive-utilities.less";
 
 .home h1 {
     text-align: center;
     border-bottom: 2px solid rgba(36, 39, 76, 0.3);
     padding-bottom: 20px;
 }
-
-p {
-    color: #636363;
-}
-
 /* Site footer */
 
 .openify-input:focus {
@@ -47,15 +68,11 @@ p {
     -moz-box-shadow: none;
 }
 
-.openify-input, .openify-form-button {
+.openify-input{
     border-radius: 0 !important;
     background-color: #24274c;
     border: solid 2px #f5f5f5;
     color: #cccccc;
-}
-
-.openify-form-button:hover {
-    color: #ffffff;
 }
 
 /* Home styles */
@@ -96,6 +113,9 @@ p {
         text-align: center;
     }
 }
+
+
+
 
 /* navigation bar styles */
 /* ----------------------------------------------------------*/
@@ -156,30 +176,4 @@ p {
 
 .openify-navbar-links .active {
     border-bottom-color: #f15c39;
-}
-
-.openify-modal .modal-content {
-    background-color: #24274c;
-    color: white;
-}
-
-.openify-modal .modal-title, .openify-modal .close {
-    color: white !important;
-}
-
-.openify-modal form {
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.openify-light-button {
-    background-color: transparent;
-    border-radius: 0 !important;
-    border: solid 3px #24274c;
-    color: #24274c;
-}
-
-.openify-light-button:hover {
-    border: solid 3px #636363;
-    color: #636363;
 }

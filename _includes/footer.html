@@ -6,13 +6,16 @@
             </div>
         </div>
         <h3>{{ site.data.footer.contact }}</h3>
+
         <div class="row email-subscription">
             <form class="col-lg-10 col-lg-offset-1">
                 <div class="input-group input-group-lg">
                     <input type="email" name="email" placeholder="{{site.data.footer.subscription.placeholder}}"
                            class="form-control openify-input">
                 <span class="input-group-btn">
-                    <button class="btn openify-form-button" type="submit">{{site.data.footer.subscription.submit}}</button>
+                    <button class="btn openify-button openify-button-light" type="submit">
+                        {{site.data.footer.subscription.submit}}
+                    </button>
                 </span>
                 </div>
             </form>
@@ -21,13 +24,16 @@
             <a href="mailto:{{ site.data.social.email.address }}">
                 <img src="{{ site.data.social.email.icon }}">
             </a>
-            <a href="{{ site.data.social.github.username | prepend: site.data.social.github.base_url }}" target="_blank">
+            <a href="{{ site.data.social.github.username | prepend: site.data.social.github.base_url }}"
+               target="_blank">
                 <img src="{{ site.data.social.github.icon }}">
             </a>
-            <a href="{{ site.data.social.twitter.username | prepend: site.data.social.twitter.base_url }}" target="_blank">
+            <a href="{{ site.data.social.twitter.username | prepend: site.data.social.twitter.base_url }}"
+               target="_blank">
                 <img src="{{ site.data.social.twitter.icon }}">
             </a>
-            <a href="{{ site.data.social.linkedin.username | prepend: site.data.social.linkedin.base_url }}" target="_blank">
+            <a href="{{ site.data.social.linkedin.username | prepend: site.data.social.linkedin.base_url }}"
+               target="_blank">
                 <img src="{{ site.data.social.linkedin.icon }}">
             </a>
         </div>

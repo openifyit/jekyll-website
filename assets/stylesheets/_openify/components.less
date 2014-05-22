@@ -1,0 +1,40 @@
+.openify-modal {
+    .modal-title, .modal-content, .close {
+        color: white !important;
+    }
+
+    form {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+}
+
+.openify-button {
+    border-radius: 0;
+    color: @openify-gray;
+    background-color: transparent;
+    &-dark {
+        border: solid @openify-border-size @openify-dark-blue;
+        color: @openify-dark-blue;
+        &:hover {
+            background-color: white;
+        }
+    }
+    &-light {
+        border: solid @openify-border-size #ffffff;
+        &:hover {
+            color: white;
+        }
+    }
+
+}
+
+.openify-input{
+    background-color: @openify-dark-blue;
+    border: solid @openify-border-size #ffffff;
+    color: #ffffff;
+    &:focus{
+        box-shadow: none;
+    }
+}
+

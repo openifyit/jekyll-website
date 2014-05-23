@@ -1,1 +1,3 @@
-$.stellar();
+$.stellar({
+    hideDistantElements: false
+});

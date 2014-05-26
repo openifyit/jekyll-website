@@ -1,24 +1,24 @@
 <nav class="navbar navbar-default openify-navbar hidden-xs hidden-sm" role="navigation">
     <div class="container">
         <div class="openify-navbar-header pull-left">
-            <a href="#" onclick="scrollTo(event, 'header')">
+            <a href="#openify-header" onclick="scrollToAnchor(event, '#openify-header')">
                 <img class="openify-navbar-logo" src="{{site.data.scrollspy.logo}}">
             </a>
         </div>
         <div class="openify-navbar-links pull-right" id="content-scrollspy">
             <ul class="nav">
                 <li><a href="#{{site.data.home.services.api.anchor}}"
-                       onclick="scrollTo(event, '#{{site.data.home.services.api.anchor}}')">
+                       onclick="scrollToAnchor(event, '#{{site.data.home.services.api.anchor}}', addHistory)">
                     {{site.data.home.services.api.title}}</a></li>
                 <li><a href="#{{site.data.home.services.realtime.anchor}}"
-                       onclick="scrollTo(event, '#{{site.data.home.services.realtime.anchor}}')">
+                       onclick="scrollToAnchor(event, '#{{site.data.home.services.realtime.anchor}}', addHistory)">
                     {{site.data.home.services.realtime.title}}</a></li>
                 <li><a href="#{{site.data.home.services.dashboard.anchor}}"
-                       onclick="scrollTo(event, '#{{site.data.home.services.dashboard.anchor}}')">
+                       onclick="scrollToAnchor(event, '#{{site.data.home.services.dashboard.anchor}}', addHistory)">
                     {{site.data.home.services.dashboard.title}}
                 </a></li>
                 <li><a href="#{{site.data.footer.anchor}}"
-                       onclick="scrollTo(event, '#{{site.data.footer.anchor}}')">
+                       onclick="scrollToAnchor(event, '#{{site.data.footer.anchor}}', addHistory)">
                     {{site.data.footer.title}}
                 </a></li>
             </ul>

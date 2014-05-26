@@ -3,24 +3,17 @@ layout: default
 ---
 
 <div class="home container">
-    <section class="vision col-sm-10 col-sm-offset-1" id="{{site.data.home.vision.anchor}}">
+
+    <section class="col-sm-10 col-sm-offset-1" id="{{site.data.home.vision.anchor}}">
         <h1>{{site.data.home.vision.title}}</h1>
-        <div class="row">
+        <div class="vision row">
             <div class="col-sm-6">
-                <div class="row">
-                    <h2>{{site.data.home.vision.problem.title}}</h2>
-                </div>
-                <div class="row">
-                    <img class="img-responsive" src="{{site.data.home.vision.problem.image}}">
-                </div>
+                <h2>{{site.data.home.vision.problem.title}}</h2>
+                <img class="img-responsive" src="{{site.data.home.vision.problem.image}}">
             </div>
             <div class="col-sm-6">
-                <div class="row">
-                    <h2>{{site.data.home.vision.solution.title}}</h2>
-                </div>
-                <div class="row">
-                    <img class="img-responsive" src="{{site.data.home.vision.solution.image}}">
-                </div>
+                <h2>{{site.data.home.vision.solution.title}}</h2>
+                <img class="img-responsive" src="{{site.data.home.vision.solution.image}}">
             </div>
         </div>
         <div class="row">
@@ -30,9 +23,9 @@ layout: default
         </div>
     </section>
 
-    <section class="services col-sm-10 col-sm-offset-1">
+    <section class="col-sm-10 col-sm-offset-1">
         <h1>{{site.data.home.services.title}}</h1>
-        <div class="row" id="{{site.data.home.services.api.anchor}}">
+        <div class="service row" id="{{site.data.home.services.api.anchor}}">
             <div class="col-sm-5">
                 <img class="img-responsive" src="{{site.data.home.services.api.image}}">
             </div>
@@ -47,7 +40,7 @@ layout: default
 
         {% include learn-more-modal.html param="api"%}
 
-        <div class="row" id="{{site.data.home.services.realtime.anchor}}">
+        <div class="service  row" id="{{site.data.home.services.realtime.anchor}}">
             <div class="col-sm-5 visible-xs">
                 <img class="img-responsive" src="{{site.data.home.services.realtime.image}}">
             </div>
@@ -65,7 +58,7 @@ layout: default
 
         {% include learn-more-modal.html param="realtime"%}
 
-        <div class="row" id="{{site.data.home.services.dashboard.anchor}}">
+        <div class="service  row" id="{{site.data.home.services.dashboard.anchor}}">
             <div class="col-sm-5">
                 <img class="img-responsive" src="{{site.data.home.services.dashboard.image}}">
             </div>

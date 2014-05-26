@@ -13,3 +13,6 @@ keen:
 markdown: kramdown
 permalink: pretty
 
+#Gems
+gems: ['jekyll-less']
+

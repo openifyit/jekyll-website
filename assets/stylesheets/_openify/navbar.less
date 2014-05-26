@@ -1,0 +1,47 @@
+.openify-navbar {
+  box-shadow: 0 1px 5px 0;
+  height: 80px;
+  border: none;
+
+  .container {
+    height: 100%;
+  }
+
+  .openify-navbar-header {
+    height: 100%;
+
+    .openify-navbar-logo {
+      height: 100%;
+      padding: 20px;
+    }
+  }
+
+  .openify-navbar-links {
+    height: 100%;
+
+    ul {
+      height: 100%;
+
+      li {
+        height: 100%;
+        float: left;
+        border-bottom: 5px solid transparent;
+
+        > a {
+          text-transform: uppercase;
+          font-size: 0.7em;
+          background-color: transparent !important;
+        }
+      }
+    }
+
+    .active {
+      border-bottom-color: @openify-orange;
+    }
+  }
+
+}
+
+.openify-navbar-padding {
+  padding-top: 100px;
+}

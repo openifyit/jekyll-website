@@ -19,7 +19,12 @@
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="{{ site.data.social.og_description }}">
     <meta name="twitter:image" content="{{ site.data.social.og_image | prepend: site.url }}">
-    
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/assets/javascripts/html5shiv.min.js"></script>
+    <!-- <![endif]-->
+
+
     <link rel="shortcut icon" type="image/png" href="{{ site.favicon }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 

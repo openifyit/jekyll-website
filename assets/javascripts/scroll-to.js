@@ -4,6 +4,6 @@ $(document).ready(function () {
         if(!scrollTopOffset) {
             scrollTopOffset = $('.services').offset().top;
         }
-        $('body').animate({scrollTop: scrollTopOffset}, 500, 'swing');
+        $('body,html').animate({scrollTop: scrollTopOffset}, 500, 'swing');
     });
 });

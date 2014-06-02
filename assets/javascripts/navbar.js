@@ -12,9 +12,4 @@ $(document).ready(function(){
             $('.wrap').removeClass('openify-navbar-padding');
         }
     });
-
-    $('.openify-navbar-links li>a').click( function() {
-        $('.openify-navbar-links li').removeClass('active');
-        $(this).parent().addClass('active');
-    });
 });

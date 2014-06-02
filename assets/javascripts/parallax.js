@@ -1,3 +1,4 @@
 $.stellar({
-    hideDistantElements: false
+    hideDistantElements: false,
+    horizontalScrolling: false
 });

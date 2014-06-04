@@ -3,12 +3,50 @@
         text-align: center;
         border-bottom: 2px solid rgba(36, 39, 76, 0.3);
         padding-bottom: 20px;
-        margin-bottom: 25px;
+        margin-bottom: 100px;
     }
+
+    #approche {
+        .logos {
+            margin-top: 100px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.8em;
+            text-align: justify;
+            em {
+                font-weight: bold;
+                color: @openify-dark-blue;
+            }
+        }
+
+        .faux {
+            text-indent: -9999px;
+            background: no-repeat center center;
+            height: 100px;
+            background-size: contain;
+        }
+        #aws {
+            background-image: url("/assets/images/aws_logo.jpg");
+        }
+        #azure {
+            background-image: url("/assets/images/windows_azure_logo.png");
+        }
+        #logstash {
+            background-image: url("/assets/images/logstash_logo.png");
+        }
+        #elasticsearch {
+            background-image: url("/assets/images/elasticsearch_logo.png");
+        }
+    }
+
     section {
+        .learn-more {
+            margin-top: 80px;
+        }
         padding: 50px 0px;
         .service {
-            padding: 125px 0 75px 0;
+            padding-bottom: 125px;
             img {
                 width: 300px;
                 margin: auto;

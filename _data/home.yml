@@ -1,3 +1,6 @@
+approche:
+  title: "Notre approche"
+  text: "Nous accompagons les entreprises dans leurs choix et implantation de technologies de recherche et d'analyse de données. Nous travaillons entre autres avec des technologies telles que <em>Elasticsearch</em> et <em>logstash</em>. Nos solutions s'intègrent à vos infrastructures existantes et peuvent également être déployées dans le Cloud comme <em>Amazon Web Services</em> ou <em>Windows Azure</em>."
 learn-more-button: Pour en savoir plus
 learn-more-modal:
   title: Contactez-nous pour en savoir plus

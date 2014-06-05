@@ -20,11 +20,13 @@
             padding: 20px;
         }
     }
+    li {
+        text-transform: uppercase;
+        font-size: 0.7em;
+    }
 
     .openify-navbar-links {
         > li {
-            text-transform: uppercase;
-            font-size: 0.7em;
             &:after {
                 content: "";
                 position: absolute;
@@ -37,20 +39,20 @@
             }
         }
     }
+    
     .openify-dropdown-links {
-        min-width: 0;
-        li {
-            &:after {
-                height: 100%;
-                border-left: @default-link-border;
-                border-bottom: none;
-            }
-            &.active:after{
-                border-color: @openify-orange;
-            }
-        }
-    }
-
+         min-width: 0;
+         > li {
+             &:after {
+                 height: 100%;
+                 border-left: @default-link-border;
+                 border-bottom: none;
+             }
+             &.active:after {
+                 border-color: @openify-orange;
+             }
+         }
+     }
 }
 
 .openify-navbar-padding {

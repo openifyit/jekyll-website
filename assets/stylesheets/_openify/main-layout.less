@@ -2,8 +2,7 @@
     h1 {
         text-align: center;
         border-bottom: 2px solid rgba(36, 39, 76, 0.3);
-        padding-bottom: 20px;
-        margin-bottom: 100px;
+        margin-bottom: @navbar-height;
     }
 
     #approche {
@@ -41,12 +40,11 @@
     }
 
     section {
-        .learn-more {
-            margin-top: 80px;
-        }
-        padding: 50px 0px;
+        padding-top: @navbar-height;
+        margin-bottom: @navbar-height;
         .service {
-            padding-bottom: 125px;
+            padding-top: @navbar-height + 20px;
+            margin-bottom: @navbar-height;
             img {
                 width: 300px;
                 margin: auto;
@@ -55,6 +53,9 @@
                 text-align: justify;
                 margin-top: 20px;
             }
+        }
+        .learn-more {
+            margin-top: 80px;
         }
     }
 }

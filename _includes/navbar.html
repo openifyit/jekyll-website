@@ -7,17 +7,20 @@
         </div>
         <div class=" pull-right" id="content-scrollspy">
             <ul class="navbar-nav nav openify-navbar-links">
-                <li class="openify-navbar-link">
+                <li>
+                    <a href="#openify-header" style="display:none;"></a>
+                </li>
+                <li>
                     <a href="#approche"
                        onclick="scrollToAnchor(event, '#approche', addHistory)">
                         {{site.data.home.approche.title}}
                     </a>
                 </li>
-                <li class="dropdown openify-navbar-link">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                         {{site.data.home.services.title}}
                     </a>
-                    <ul class="dropdown-menu openify-dropdown-links">
+                    <ul class="dropdown-menu">
                         <li>
                             <a href="#{{site.data.home.services.api.anchor}}"
                                onclick="scrollToAnchor(event, '#{{site.data.home.services.api.anchor}}', addHistory)">
@@ -38,7 +41,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="openify-navbar-link"><a href="#{{site.data.footer.anchor}}"
+                <li><a href="#{{site.data.footer.anchor}}"
                        onclick="scrollToAnchor(event, '#{{site.data.footer.anchor}}', addHistory)">
                     {{site.data.footer.title}}
                 </a></li>

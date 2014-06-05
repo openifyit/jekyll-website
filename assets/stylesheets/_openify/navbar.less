@@ -1,22 +1,15 @@
-@default-link-border : 5px solid transparent;
+@default-link-border : 7px solid transparent;
 .transparent-background() {
     background-color: transparent;
 }
 
 .openify-navbar {
     box-shadow: 0 1px 5px 0;
-    height: 80px;
     border: none;
 
-    .container {
-        height: 100%;
-    }
-
     .openify-navbar-header {
-        height: 100%;
-
         .openify-navbar-logo {
-            height: 100%;
+            height: @navbar-height;
             padding: 20px;
         }
     }
@@ -26,33 +19,36 @@
     }
 
     .openify-navbar-links {
-        > li {
+        li {
+            text-transform: uppercase;
+            font-size: 0.7em;
             &:after {
                 content: "";
                 position: absolute;
-                width: 100%;
-                border-bottom: @default-link-border;
-                bottom: 0;
             }
             &.active:after {
                 border-color: @openify-orange;
             }
         }
+        > li:after {
+            border-bottom: @default-link-border;
+            bottom: 0;
+            width: 100%;
+        }
+        .dropdown {
+            li:hover, li a:hover {
+                background-color: transparent;
+                color: @openify-orange
+            }
+            li {
+                border-left: @default-link-border;
+                &.active {
+                    border-color: @openify-orange;
+                }
+            }
+
+        }
     }
-    
-    .openify-dropdown-links {
-         min-width: 0;
-         > li {
-             &:after {
-                 height: 100%;
-                 border-left: @default-link-border;
-                 border-bottom: none;
-             }
-             &.active:after {
-                 border-color: @openify-orange;
-             }
-         }
-     }
 }
 
 .openify-navbar-padding {

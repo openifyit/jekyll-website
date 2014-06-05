@@ -1,4 +1,6 @@
-$.stellar({
-    hideDistantElements: false,
-    horizontalScrolling: false
-});
+if(!window.isMobile()) {
+    $.stellar({
+        hideDistantElements: false,
+        horizontalScrolling: false
+    });
+}

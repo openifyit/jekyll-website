@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+    <title>openify.it</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="openify.it brings small and medium businesses into the data era by giving them access to a powerful search-engine and data analysis tools. Proposing simple solutions to solve customers problems and choosing technologies to implement the solutions.">
+    
+    <!-- facebook meta tags -->
+    <meta property="og:title" content="openify.it"/>
+    <meta property="og:url" content="http://www.openify.it "/>
+    <meta property="og:site_name" content="openify"/>
+    <meta property="og:image" content="http://www.openify.it/assets/images/og_image.jpg"/>
+    <meta property="og:description" content=" openify.it brings small and medium businesses into the data era by giving them access to a powerful search-engine and data analysis tools. Proposing simple solutions to solve customers problems and choosing technologies to implement the solutions. "/>
+
+    <!-- twitter meta tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@openify">
+    <meta name="twitter:title" content="openify.it">
+    <meta name="twitter:description" content="openify.it brings small and medium businesses into the data era by giving them access to a powerful search-engine and data analysis tools. Proposing simple solutions to solve customers problems and choosing technologies to implement the solutions.">
+    <meta name="twitter:image" content="http://www.openify.it/assets/images/og_image.jpg">
+
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/assets/javascripts/html5shiv.min.js"></script>
+        <link rel="stylesheet" href="/assets/stylesheets/ie.css">
+    <!-- <![endif]-->
+
+
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+    <link rel="canonical" href="http://www.openify.it/">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/stylesheets/main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+
+    <body data-spy="scroll" data-target="#content-scrollspy">
+
+    <header id="openify-header" data-stellar-background-ratio="0.5">
+    <div class="logo-container" data-stellar-ratio="2">
+        <img class="hidden-xs" src="/assets/images/openify_logo_white.png">
+        <img class="visible-xs" src="/assets/images/openify_icon_white.png">
+    </div>
+    <div class="openify-scroll-to-container">
+        <div id="scroll-arrow" data-track="true" class="openify-scroll-to hidden-xs hidden-sm"
+             onclick="scrollToAnchor(event, '.openify-navbar')"></div>
+    </div>
+</header>
+
+
+    <nav class="navbar navbar-default openify-navbar hidden-xs hidden-sm" role="navigation">
+    <div class="container">
+        <div class="openify-navbar-header pull-left">
+            <a href="#openify-header" onclick="scrollToAnchor(event, '#openify-header')">
+                <img class="openify-navbar-logo" src="/assets/images/openify_logo_color.png">
+            </a>
+        </div>
+        <div class=" pull-right" id="content-scrollspy">
+            <ul class="navbar-nav nav openify-navbar-links">
+                <li>
+                    <a href="#openify-header" class="hidden"></a>
+                </li>
+                <li>
+                    <a href="#approche"
+                       onclick="scrollToAnchor(event, '#approche', addHistory)">
+                        Notre approche
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Nos services
+                    </a>
+                    <ul class="dropdown-menu openify-dropdown">
+                        <li>
+                            <a href="#api-sur-mesure"
+                               onclick="scrollToAnchor(event, '#api-sur-mesure', addHistory)">
+                                API sur mesure
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#traitement-temps-reel"
+                               onclick="scrollToAnchor(event, '#traitement-temps-reel', addHistory)">
+                                temps réel
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#visualisation"
+                               onclick="scrollToAnchor(event, '#visualisation', addHistory)">
+                                Visualisation
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#contact"
+                       onclick="scrollToAnchor(event, '#contact', addHistory)">
+                    Contact
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <div class="wrap">
+        <div class="home container">
+    <section id="approche" class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+        <div class="clearfix">
+            <h1>Notre approche</h1>
+
+            <p>Nous accompagons les entreprises dans leurs choix et implantation de technologies de recherche et d'analyse de données. Nous travaillons entre autres avec des technologies telles que <em>Elasticsearch</em> et <em>logstash</em>. Nos solutions s'intègrent à vos infrastructures existantes et peuvent également être déployées dans le Cloud comme <em>Amazon Web Services</em> ou <em>Windows Azure</em>.</p>
+        </div>
+        <div class="row logos">
+            <div class="col-md-3 col-xs-6">
+                <a href="http://elasticsearch.org" class="img-responsive faux" id="elasticsearch">Elasticsearch</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <a href="http://logstash.net" class="img-responsive faux" id="logstash">logstash</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <a href="https://aws.amazon.com/" class="img-responsive faux" id="aws">Amazon Web Service</a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <a href=https://azure.microsoft.com class="img-responsive faux" id="azure">Windows Azure</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="services" class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+        <h1>Nos services</h1>
+
+        <div class="service row" id="api-sur-mesure">
+            <div class="row">
+                <div class="col-sm-5">
+                    <img class="img-responsive" src="/assets/images/api_factory.png">
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 section-text">
+                    <h2>API sur mesure</h2>
+
+                    
+                    <p>Nous développons des APIs REST sur mesure pour répondre à vos besoins selon votre contexte d'affaire. Nos APIs sont indépendants de votre architecture et n'impacterons pas vos systèmes actuels.</p>
+                    
+                    <p>Votre API personnalisée vous permettra de tirer 100% profit de vos données à l'interne et même des données externes.</p>
+                    
+                </div>
+            </div>
+            <div class="row text-center learn-more">
+    <button id="learn-more-api" class="btn openify-button openify-button-dark btn-lg" data-toggle="modal"
+            data-target="#learn-more-modal-api" data-track="true">
+        Pour en savoir plus
+    </button>
+</div>
+
+<div class="modal fade openify-modal" id="learn-more-modal-api" tabindex="-1" role="dialog"
+     aria-labelledby="learn-more-modal-api-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="learn-more-modal-api-label">
+                    Contactez-nous pour en savoir plus</h3>
+            </div>
+            <div class="modal-body">
+                Il nous fera plaisir de vous contacter et discuter avec vous. Laissez-nous simplement votre adresse courriel.
+                <form>
+                    <div class="input-group input-group-lg">
+                        <input type="email" name="email" placeholder="Votre adresse courriel"
+                               class="form-control openify-input">
+            <span class="input-group-btn">
+                <button class="btn openify-button openify-button-light" type="submit">Soumettre</button>
+            </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#learn-more-modal-api form').submit(function (event) {
+            event.preventDefault();
+            var email = $('#learn-more-modal-api input').val();
+            var data = {
+                email: email,
+                section: "api"
+            };
+            Keen.addEvent("contact-email-subscription", data);
+            $('#learn-more-modal-api input').val('');
+            $('#learn-more-modal-api').modal('hide');
+            alert("Merci de l'intérêt! Nous vous contacterons sous peu.");
+        });
+    });
+</script>
+
+
+        </div>
+
+        <div class="service  row" id="traitement-temps-reel">
+            <div class="row">
+                <div class="col-sm-5 visible-xs">
+                    <img class="img-responsive" src="/assets/images/realtime.png">
+                </div>
+                <div class="col-sm-6 section-text">
+                    <h2>temps réel</h2>
+
+                    
+                    <p>L'anayse en temps réel ouvre une porte sur un tout autre monde d'analyse de données.</p>
+                    
+                    <p>Elle vient compléter l'analyse après coup en permettant de répondre à des événements spontanés. Que ce soit pour la détection d'anomalies ou de saisie d'opportunités, elle vous permettra de réagir en un temps minimal et donc d'avoir une longueur d'avance sur vos compétiteurs</p>
+                    
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 hidden-xs">
+                    <img class="img-responsive" src="/assets/images/realtime.png">
+                </div>
+            </div>
+            <div class="row text-center learn-more">
+    <button id="learn-more-realtime" class="btn openify-button openify-button-dark btn-lg" data-toggle="modal"
+            data-target="#learn-more-modal-realtime" data-track="true">
+        Pour en savoir plus
+    </button>
+</div>
+
+<div class="modal fade openify-modal" id="learn-more-modal-realtime" tabindex="-1" role="dialog"
+     aria-labelledby="learn-more-modal-realtime-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="learn-more-modal-realtime-label">
+                    Contactez-nous pour en savoir plus</h3>
+            </div>
+            <div class="modal-body">
+                Il nous fera plaisir de vous contacter et discuter avec vous. Laissez-nous simplement votre adresse courriel.
+                <form>
+                    <div class="input-group input-group-lg">
+                        <input type="email" name="email" placeholder="Votre adresse courriel"
+                               class="form-control openify-input">
+            <span class="input-group-btn">
+                <button class="btn openify-button openify-button-light" type="submit">Soumettre</button>
+            </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#learn-more-modal-realtime form').submit(function (event) {
+            event.preventDefault();
+            var email = $('#learn-more-modal-realtime input').val();
+            var data = {
+                email: email,
+                section: "realtime"
+            };
+            Keen.addEvent("contact-email-subscription", data);
+            $('#learn-more-modal-realtime input').val('');
+            $('#learn-more-modal-realtime').modal('hide');
+            alert("Merci de l'intérêt! Nous vous contacterons sous peu.");
+        });
+    });
+</script>
+
+        </div>
+
+
+        <div class="service  row" id="visualisation">
+            <div class="row">
+                <div class="col-sm-5">
+                    <img class="img-responsive" src="/assets/images/visualize.png">
+                </div>
+                <div class="col-sm-6 col-sm-offset-1 section-text">
+                    <h2>Visualisation</h2>
+
+                    
+                    <p>La visualisation des données complète la boucle.</p>
+                    
+                    <p>Elle vous permettra d’approfondir votre compréhension des données que vous collectez et d’en faire une meilleure analyse. Vous serez donc en mesure de prendre des décisions plus éclairées</p>
+                    
+                </div>
+            </div>
+            <div class="row text-center learn-more">
+    <button id="learn-more-visualization" class="btn openify-button openify-button-dark btn-lg" data-toggle="modal"
+            data-target="#learn-more-modal-visualization" data-track="true">
+        Pour en savoir plus
+    </button>
+</div>
+
+<div class="modal fade openify-modal" id="learn-more-modal-visualization" tabindex="-1" role="dialog"
+     aria-labelledby="learn-more-modal-visualization-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title" id="learn-more-modal-visualization-label">
+                    Contactez-nous pour en savoir plus</h3>
+            </div>
+            <div class="modal-body">
+                Il nous fera plaisir de vous contacter et discuter avec vous. Laissez-nous simplement votre adresse courriel.
+                <form>
+                    <div class="input-group input-group-lg">
+                        <input type="email" name="email" placeholder="Votre adresse courriel"
+                               class="form-control openify-input">
+            <span class="input-group-btn">
+                <button class="btn openify-button openify-button-light" type="submit">Soumettre</button>
+            </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#learn-more-modal-visualization form').submit(function (event) {
+            event.preventDefault();
+            var email = $('#learn-more-modal-visualization input').val();
+            var data = {
+                email: email,
+                section: "visualization"
+            };
+            Keen.addEvent("contact-email-subscription", data);
+            $('#learn-more-modal-visualization input').val('');
+            $('#learn-more-modal-visualization').modal('hide');
+            alert("Merci de l'intérêt! Nous vous contacterons sous peu.");
+        });
+    });
+</script>
+
+
+        </div>
+
+    </div>
+</section>
+
+</div>
+
+    </div>
+
+    <footer id="contact">
+    <div class="col-sm-6 col-sm-offset-3">
+        <div class="row">
+            <div class="logo-container">
+                <img src="/assets/images/openify_icon_white_small.png">
+            </div>
+        </div>
+        <h3>restons en contact</h3>
+
+        <div class="row email-subscription">
+            <form class="col-lg-10 col-lg-offset-1">
+                <div class="input-group input-group-lg">
+                    <input type="email" name="email" placeholder="Votre adresse courriel"
+                           class="form-control openify-input">
+                <span class="input-group-btn">
+                    <button class="btn openify-button openify-button-light" type="submit">
+                        Soumettre
+                    </button>
+                </span>
+                </div>
+            </form>
+        </div>
+        <div class="row links-container">
+            <a href="mailto:info@openify.it">
+                <img src="/assets/images/mail.png">
+            </a>
+            <a href="https://github.com/openifyit"
+               target="_blank">
+                <img src="/assets/images/github.png">
+            </a>
+            <a href="https://twitter.com/openify"
+               target="_blank">
+                <img src="/assets/images/twitter.png">
+            </a>
+            <a href="https://linkedin.com/company/openify-it"
+               target="_blank">
+                <img src="/assets/images/linkedin.png">
+            </a>
+        </div>
+    </div>
+</footer>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-45913436-1', 'openify.it');
+    ga('require', 'displayfeatures');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="/assets/javascripts/analytics-event-tracking.js"></script>
+
+    <script type="text/javascript">
+    var Keen=Keen||{configure:function(e){this._cf=e},addEvent:function(e,t,n,i){this._eq=this._eq||[],this._eq.push([e,t,n,i])},setGlobalProperties:function(e){this._gp=e},onChartsReady:function(e){this._ocrq=this._ocrq||[],this._ocrq.push(e)}};(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src=("https:"==document.location.protocol?"https://":"http://")+"dc8na2hxrj29i.cloudfront.net/code/keen-2.1.0-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+
+    // Configure the Keen object with your Project ID and (optional) access keys.
+    Keen.configure({
+        projectId: "5377e43300111c1eb7000025",
+        writeKey: "edb7d53dbedb961e2a3e25d356f1d11f68a2fc4941ec95bacf9feee6c6b68f632d196d068c8c6bc5b8117e1af873dfbf68182729dcfad54b1d2d57ce7c81c709c04628327430d8d74f228c294af2a99f3f10dd0b2ab53ead7a7576b526bab0f4230ed9d40e2e3f3a16dc9c58489b8fbb"
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('footer .email-subscription form').submit(function(event){
+            event.preventDefault();
+            var email = $('footer .email-subscription input').val();
+            var data = {
+              email:email,
+              section: 'footer'
+            };
+            Keen.addEvent("contact-email-subscription", data);
+            $('footer .email-subscription input').val('');
+            alert("Merci de l'intérêt! Nous vous contacterons sous peu.");
+        });
+    });
+</script>
+
+    <script type="text/javascript" src="/assets/javascripts/jquery.stellar.min.js"></script>
+<script type="text/javascript" src="/assets/javascripts/parallax.js"></script>
+<script type="text/javascript" src="/assets/javascripts/scroll-to.js"></script>
+<script type="text/javascript" src="/assets/javascripts/navbar.js"></script>
+<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+    </body>
+</html>

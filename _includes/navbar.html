@@ -5,18 +5,42 @@
                 <img class="openify-navbar-logo" src="{{site.data.scrollspy.logo}}">
             </a>
         </div>
-        <div class="openify-navbar-links pull-right" id="content-scrollspy">
-            <ul class="nav">
-                <li><a href="#{{site.data.home.services.api.anchor}}"
-                       onclick="scrollToAnchor(event, '#{{site.data.home.services.api.anchor}}', addHistory)">
-                    {{site.data.home.services.api.title}}</a></li>
-                <li><a href="#{{site.data.home.services.realtime.anchor}}"
-                       onclick="scrollToAnchor(event, '#{{site.data.home.services.realtime.anchor}}', addHistory)">
-                    {{site.data.home.services.realtime.title}}</a></li>
-                <li><a href="#{{site.data.home.services.dashboard.anchor}}"
-                       onclick="scrollToAnchor(event, '#{{site.data.home.services.dashboard.anchor}}', addHistory)">
-                    {{site.data.home.services.dashboard.title}}
-                </a></li>
+        <div class=" pull-right" id="content-scrollspy">
+            <ul class="navbar-nav nav openify-navbar-links">
+                <li>
+                    <a href="#openify-header" class="hidden"></a>
+                </li>
+                <li>
+                    <a href="#approche"
+                       onclick="scrollToAnchor(event, '#approche', addHistory)">
+                        {{site.data.home.approche.title}}
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        {{site.data.home.services.title}}
+                    </a>
+                    <ul class="dropdown-menu openify-dropdown">
+                        <li>
+                            <a href="#{{site.data.home.services.api.anchor}}"
+                               onclick="scrollToAnchor(event, '#{{site.data.home.services.api.anchor}}', addHistory)">
+                                {{site.data.home.services.api.title}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#{{site.data.home.services.realtime.anchor}}"
+                               onclick="scrollToAnchor(event, '#{{site.data.home.services.realtime.anchor}}', addHistory)">
+                                {{site.data.home.services.realtime.title}}
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#{{site.data.home.services.dashboard.anchor}}"
+                               onclick="scrollToAnchor(event, '#{{site.data.home.services.dashboard.anchor}}', addHistory)">
+                                {{site.data.home.services.dashboard.title}}
+                            </a>
+                        </li>
+                    </ul>
+                </li>
                 <li><a href="#{{site.data.footer.anchor}}"
                        onclick="scrollToAnchor(event, '#{{site.data.footer.anchor}}', addHistory)">
                     {{site.data.footer.title}}
